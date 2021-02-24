@@ -1,6 +1,9 @@
 ---
 title: "R Notebook"
-output: html_notebook
+output:
+  word_document: default
+  pdf_document: default
+  html_notebook: default
 ---
 
 ##Peer-graded Assignement: Getting and Cleaning Data Course Project
@@ -10,7 +13,7 @@ This repository is my submission for Getting and Cleaning Data course Project. I
 [Human activity recognition using Smartphones](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 ##Files
-    - Codebook.nb.html a codebook with explanation on all the variables used in the script, and any transformations of the dataset I performed
+    - Codebook.pdf a codebook with explanation on all the variables used in the script, and any transformations of the dataset I performed
     - run_analysis.r script, performs the data prepation, which is then followed by cleaning the data as described in the course projects definition.
         1. Merges the training and the test sets to create one data set.
         2. Extracts only the measurements on the mean and standard deviation for each measurement. 
